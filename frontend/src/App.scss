@@ -1,0 +1,1399 @@
+@media (max-width: 360px) {
+	button {
+		width: 100%;
+		height: 70%;
+		background: #fff;
+	}
+
+	/* Main */
+	.main {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+
+		/* SideMenu */
+
+		.MobileMenu {
+
+			.Menu {
+				width: 100%;
+
+				.Mobile--top {
+					display: flex;
+					background-color: #ffffff;
+					width: 100vw;
+					height: 10vh;
+					justify-content: center;
+					align-items: center;
+					padding-top: 2em;
+
+					.logo {
+						width: 100%;
+						align-items: center;
+						justify-content: center;
+						padding-left: 7%;
+						padding-bottom: 20%;
+					}
+
+					.Mobile--menu {
+						display: flex;
+						justify-content: flex-end;
+						align-items: center;
+						width: 100%;
+						padding-right: 7%;
+						padding-bottom: 6%;
+					}
+				}
+
+				.Mobile {
+					display: block;
+					margin: 0;
+					padding: 0;
+					overflow: hidden;
+					background-color: var(--primary-color);
+					height: 100%;
+
+				/* Logout */
+				.logout {
+					display: flex;
+					flex-direction: column;
+					width: auto;
+					height: 100%;
+					align-items: center;
+					justify-content: end;
+
+					.hover-button {
+						background-color: #2b3034; /* Initial background color */
+						color: #fff; /* Initial text color */
+						transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+	
+						&:hover {
+							background-color: #55595d; /* Change the background color on hover */
+							color: #fff; /* Change the text color on hover */
+						}				
+					}
+				}
+				/* Logout */
+
+					nav {
+						width: 100%;
+						margin: 0;
+						padding: 0;
+						justify-content: flex-end;
+
+						ul {
+							list-style: none;
+							margin: 0;
+							padding: 0;
+							width: 100%;
+
+							li {
+								a {
+									gap: 6px;
+									padding: 6.5%;
+									color: var(--secondary-color);
+									text-decoration: none;
+									display: flex;
+									align-items: center;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		/* SideMenu */
+
+		/* ContentWrapper */
+		.ContentWrapper-Main {
+			width: 100vw;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			.ContentWrapper {
+				width: 100%;
+				height: 100vh;
+				background-color: #f0f0f0;
+				display: flex;
+				flex-direction: column;
+				align-content: center;
+
+				ul {
+					display: flex;
+					flex-direction: column;
+					padding: 0 0;
+
+					li {
+						list-style: none;
+					}
+				}
+
+				.company {
+					max-width: 100%;
+					margin: 0 auto;
+
+					.bannerDiv {
+						width: 100%;
+						margin: 0 auto;
+
+						.Banner {
+							margin: -120px 0 0 0;
+							object-fit: cover;
+							height: 170px;
+							width: 100%;
+						}
+					}
+
+					.CompanyBodyHead {
+						width: 100%;
+						margin: 0 auto;
+
+						.d-flex1 {
+							min-width: 200px;
+							max-width: 100%;
+							margin: 0 35px 0 35px;
+
+							.card1 {
+								min-width: 50vw;
+								max-width: 100%;
+								min-height: 183px;
+								max-height: 183px;
+							}
+						}
+
+						.CompanyHeader {
+							background: #ffffff;
+
+							.Companylogo {
+								height: 85px;
+								width: 85px;
+								object-fit: cover;
+								border-radius: 100%;
+							}
+						}
+					}
+				}
+
+				.company-lists {
+					width: 100%;
+					max-width: 100%;
+
+					.row {
+						/*flex-wrap: revert;
+						overflow: auto;*/
+					}
+
+					.padding {
+						padding: 4em 10px 0 10px;
+					}
+
+					.search-label {
+						font-size: 20px;
+					}
+
+					.search-main {
+						box-shadow: 0px 4px 10px 0px #00000014;
+						width: 100%;
+						padding: 8px 15px 8px 15px;
+						border-radius: 2vh;
+					}
+
+					.company-main {
+						min-height: 283px;
+						max-width: 100%;
+					}
+
+					.company-card {
+						min-height: 283px;
+						max-height: 283px;
+						min-width: 100px;
+						max-width: 100%;
+						box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.08);
+					}
+
+					.company-card-body {
+						min-height: 247px;
+						max-height: 247px;
+						max-width: 100%;
+					}
+
+					.bio {
+						min-height: 80px;
+						max-height: 80px;
+						max-width: 100%;
+						padding: 8px;
+						margin: -14px 0 0 -8px;
+					}
+				}
+			}
+		}
+		/* ContentWrapper */
+	}
+	/* Main */
+  }
+  
+  @media (min-width: 361px) and (max-width: 640px) {
+		button {
+      width: 100%;
+      height: 70%;
+      background: #fff;
+    }
+
+		/* Main */
+		.main {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+
+			/* SideMenu */
+			.Menu {
+				width: 100%;
+			}
+
+			.Mobile--top {
+				display: flex;
+				background-color: #ffffff;
+				width: 100vw;
+				height: 10vh;
+				justify-content: center;
+				align-items: center;
+				padding-top: 2em;
+
+				.logo {
+					width: 100%;
+					align-items: center;
+					justify-content: center;
+					padding-left: 7%;
+					padding-bottom: 20%;
+				}
+
+				.Mobile--menu {
+					display: flex;
+					justify-content: flex-end;
+					align-items: center;
+					width: 100%;
+					padding-right: 7%;
+					padding-bottom: 6%;
+				}
+			}
+
+			.Mobile {
+				display: block;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: var(--primary-color);
+				height: 100%;
+
+				/* Logout */
+				.logout {
+					display: flex;
+					flex-direction: column;
+					width: auto;
+					height: 100%;
+					align-items: center;
+					justify-content: end;
+
+					.hover-button {
+						background-color: #2b3034; /* Initial background color */
+						color: #fff; /* Initial text color */
+						transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+	
+						&:hover {
+							background-color: #55595d; /* Change the background color on hover */
+							color: #fff; /* Change the text color on hover */
+						}				
+					}
+				}
+				/* Logout */
+
+				nav {
+					width: 100%;
+					margin: 0;
+					padding: 0;
+					justify-content: flex-end;
+
+					ul {
+						list-style: none;
+						margin: 0;
+						padding: 0;
+						width: 100%;
+
+						li {
+							a {
+								gap: 6px;
+								padding: 6.5%;
+								color: var(--secondary-color);
+								text-decoration: none;
+								display: flex;
+								align-items: center;
+							}
+						}
+					}
+				}
+			}
+			/* SideMenu */
+
+			/* ContentWrapper */
+			.ContentWrapper-Main {
+				width: 100vw;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				.ContentWrapper {
+					width: 100%;
+					height: 100vh;
+					background-color: #f0f0f0;
+					display: flex;
+					flex-direction: column;
+					align-content: center;
+
+					ul {
+						display: flex;
+						flex-direction: column;
+						padding: 0 0;
+
+						li {
+							list-style: none;
+						}
+					}
+
+					.company {
+						max-width: 100%;
+						margin: 0 auto;
+
+						.bannerDiv {
+							width: 100%;
+							margin: 0 auto;
+
+							.Banner {
+								margin: -120px 0 0 0;
+								object-fit: cover;
+								height: 170px;
+								width: 100%;
+							}
+						}
+
+						.CompanyBodyHead {
+							width: 100%;
+							margin: 0 auto;
+
+							.d-flex1 {
+								min-width: 200px;
+								max-width: 100%;
+								margin: 0 35px 0 35px;
+
+								.card1 {
+									min-width: 50vw;
+									max-width: 100%;
+									min-height: 183px;
+									max-height: 183px;
+								}
+							}
+
+							.CompanyHeader {
+								background: #ffffff;
+
+								.Companylogo {
+									height: 85px;
+									width: 85px;
+									object-fit: cover;
+									border-radius: 100%;
+								}
+							}
+						}
+					}
+
+					.company-lists {
+						width: 100%;
+						max-width: 100%;
+
+						.row {
+							/*flex-wrap: revert;
+							overflow: auto;*/
+						}
+
+						.padding {
+							padding: 4em 10px 0 10px;
+						}
+
+						.search-label {
+							font-size: 20px;
+						}
+
+						.search-main {
+							box-shadow: 0px 4px 10px 0px #00000014;
+							width: 100%;
+							padding: 8px 15px 8px 15px;
+							border-radius: 2vh;
+						}
+
+						.company-main {
+							min-height: 283px;
+							max-width: 100%;
+						}
+
+						.company-card {
+							min-height: 283px;
+							max-height: 283px;
+							min-width: 100px;
+							max-width: 100%;
+							box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.08);
+						}
+
+						.company-card-body {
+							min-height: 247px;
+							max-height: 247px;
+							max-width: 100%;
+						}
+
+						.bio {
+							min-height: 80px;
+							max-height: 80px;
+							max-width: 100%;
+							padding: 8px;
+							margin: -14px 0 0 -8px;
+						}
+					}
+				}
+			}
+			/* ContentWrapper */
+		}
+		/* Main */
+  }
+  
+  @media (min-width: 641px) and (max-width: 1024px) {	
+    button {
+      width: 100%;
+      height: 70%;
+      background: #fff;
+    }
+
+    /* Main */
+    .main {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+
+      /* SideMenu */
+			.Menu {
+				width: 100%;
+			}
+
+			.Tablet--top {
+				display: flex;
+				background-color: #ffffff;
+				width: 100vw;
+				height: 20vh;
+				justify-content: center;
+				align-items: center;
+				padding-top: 2em;
+
+				.logo {
+					width: 100%;
+					align-items: center;
+					justify-content: center;
+					padding-left: 7%;
+					padding-bottom: 20%;
+				}
+
+				.Tablet--menu {
+					display: flex;
+					justify-content: flex-end;
+					align-items: center;
+					width: 100%;
+					padding-right: 7%;
+					padding-bottom: 6%;
+				}
+			}
+
+			.Tablet {
+				display: block;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: var(--primary-color);
+				height: 100%;
+
+				/* Logout */
+				.logout {
+					display: flex;
+					flex-direction: column;
+					width: auto;
+					height: 100%;
+					align-items: center;
+					justify-content: end;
+
+					.hover-button {
+						background-color: #2b3034; /* Initial background color */
+						color: #fff; /* Initial text color */
+						transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+	
+						&:hover {
+							background-color: #55595d; /* Change the background color on hover */
+							color: #fff; /* Change the text color on hover */
+						}				
+					}
+				}
+				/* Logout */
+
+				nav {
+					width: 100%;
+					margin: 0;
+					padding: 0;
+					justify-content: flex-end;
+
+					ul {
+						list-style: none;
+						margin: 0;
+						padding: 0;
+						width: 100%;
+
+						li {
+							align-items: center;
+							gap: 6px;
+							a {
+								padding: 6.5%;
+								color: var(--secondary-color);
+								text-decoration: none;
+								display: flex;
+							}
+						}
+					}
+				}
+			}
+      /* SideMenu */
+
+      .ContentWrapper-Main {
+				width: 100vw;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				overflow-y: scroll;
+				height: 125vh;
+
+        &::-webkit-scrollbar {
+
+        }
+
+        /* ContentWrapper */
+        .ContentWrapper {
+					height: 100vh;
+					background-color: #f0f0f0;
+					display: flex;
+					flex-direction: column;
+					align-content: center;
+
+					ul {
+						display: flex;
+						flex-direction: column;
+						padding: 0 0 20% 0;
+
+						li {
+							list-style: none;
+						}
+					}
+
+					.company {
+						max-width: 100%;
+						margin: 0 auto;
+
+						.bannerDiv {
+							width: 100%;
+							margin: 0 auto;
+
+							.Banner {
+								margin: -140px 0 0 0;
+								object-fit: cover;
+								height: 271px;
+								width: 100%;
+							}
+						}
+
+						.CompanyBodyHead {
+							width: 100%;
+							margin: 0 auto;
+
+							.d-flex1 {
+								display: flex;
+								min-width: 200px;
+								max-width: 100%;
+								margin: 0 35px 0 35px;
+							
+								.card1 {
+									min-width: 50vw;
+									max-width: 100%;
+									min-height: 183px;
+									max-height: 183px;
+								}
+
+								.bio-card {
+									margin: 0 0 0 35px;
+								}
+							}
+
+							.CompanyHeader {
+								background: #ffffff;
+
+								.Companylogo {
+									height: 85px;
+									width: 85px;
+									object-fit: cover;
+									border-radius: 100%;
+								}
+							}
+						}
+					}
+
+					.company-lists {
+						width: 100%;
+						min-width: 600px;
+						max-width: 100%;
+
+						.search-label {
+							font-size: 20px;
+						}
+
+						.search-main {
+							box-shadow: 0px 4px 10px 0px #00000014;
+							width: 100%;
+							padding: 8px 15px 8px 15px;
+							border-radius: 2vh;
+						}
+
+						.company-main {
+							min-height: 283px;
+							max-width: 100%;
+						}
+
+						.company-card {
+							min-height: 283px;
+							max-height: 283px;
+							max-width: 100%;
+							box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.08);
+						}
+
+						.company-card-body {
+							min-height: 247px;
+							max-height: 247px;
+							max-width: 100%;
+						}
+
+						.bio {
+							min-height: 80px;
+							max-height: 80px;
+							max-width: 100%;
+							padding: 8px;
+							margin: -14px 0 0 -8px;
+						}
+					}
+        }
+        /* ContentWrapper */
+      }
+    }
+    /* Main */
+  }
+
+	@media (min-width: 1025px) and (max-width: 1259px) {
+		/* Main */
+		.main {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+
+      /* SideMenu */
+      .DesktopMenu {
+        height: 100vh;
+        display: flex;
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        flex-direction: column;
+        min-width: 18vw;
+        flex-grow: 3;
+        height: 100vh;
+        width: 12%;
+
+				/* Logout */
+				.logout {
+					display: flex;
+					flex-direction: column;
+					width: auto;
+					height: 100%;
+					align-items: center;
+					justify-content: end;
+
+					.hover-button {
+						background-color: #2b3034; /* Initial background color */
+						color: #fff; /* Initial text color */
+						transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+	
+						&:hover {
+							background-color: #55595d; /* Change the background color on hover */
+							color: #fff; /* Change the text color on hover */
+						}				
+					}
+				}
+				/* Logout */
+
+        .profileContainer {
+					font-size: 18px;
+					display: flex;
+					flex-direction: column;
+					height: 25%;
+					padding: 10% 0 0 0;
+					gap: 5px;
+					margin-bottom: 6em;
+					text-align: center;
+
+					.ProfileImage {
+						margin: 0 auto 0 auto;
+
+						img {
+							width: 80px;
+							height: 80px;
+							border-radius: 100%;
+							object-fit: cover;
+							background-color: gray;
+							background-image: url("../../assets/default.png");
+						}
+					}
+
+					.smallText {
+						color: var(--tertiary-color);
+						font-size: 16px;
+					}
+        }
+        
+        nav {
+					ul {
+						list-style: none;
+						margin: 0;
+						padding: 0;
+						width: 100%;
+
+						li {
+							a {
+								gap: 6px;
+								padding: 6.5%;
+								text-decoration: none;
+								display: flex;
+								align-items: center;
+
+								background-color: #2b3034; /* Initial background color */
+								color: var(--secondary-color); /* Initial text color */
+								transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+		
+								&:hover {
+									background-color: #55595d; /* Change the background color on hover */
+									color: #000; /* Change the text color on hover */
+								}
+							}
+						}
+					}
+        }
+      }
+      /* SideMenu */
+
+			.ContentWrapper-Main {
+				flex-grow: 4;
+				height: 100vh;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				overflow-y: scroll;
+				width: 100%;
+
+				&::-webkit-scrollbar {
+					width: 0;
+					display: none;
+				}
+
+				/* ContentWrapper */
+				.ContentWrapper {
+					display: flex;
+					flex-direction: column;
+					margin-top: 30px;
+					min-height: 100vh;
+					max-width: 100%;
+					min-width: 50%;
+
+					ul {
+						display: flex;
+						flex-direction: column;
+						gap: 15px;
+
+						li {
+							list-style: none;
+						}
+					}
+
+					.company {
+						max-width: 100%;
+						margin: 0 auto;
+
+						.bannerDiv {
+							width: 100%;
+							margin: 0 auto;
+
+							.Banner {
+								object-fit: cover;
+								height: 271px;
+								width: 817px;
+								border-radius: 10px 10px 0 0;
+							}
+						}
+
+						.CompanyBodyHead {
+							width: 817px;
+							margin: 0 auto;
+
+							.d-flex1 {
+								display: flex;
+							
+								.card1 {
+									min-width: 510px;
+									min-height: 183px;
+									max-height: 183px;
+								}
+
+								.bio-card {
+									margin: 0 0 0 35px;
+								}
+							}
+
+							.CompanyHeader {
+								background: #ffffff;
+								border-radius: 0 0 10px 10px;
+
+								.Companylogo {
+									height: 85px;
+									width: 85px;
+									object-fit: cover;
+									border-radius: 100%;
+								}
+							}
+						}
+					}
+
+					.company-lists {
+						width: 920px;
+						min-width: 600px;
+						max-width: 100%;
+
+						.search-label {
+							font-size: 20px;
+						}
+
+						.search-main {
+							box-shadow: 0px 4px 10px 0px #00000014;
+							width: 100%;
+							padding: 8px 15px 8px 15px;
+							border-radius: 2vh;
+						}
+
+						.company-main {
+							min-height: 283px;
+							max-width: 100%;
+						}
+
+						.company-card {
+							min-height: 283px;
+							max-height: 283px;
+							max-width: 100%;
+							box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.08);
+						}
+
+						.company-card-body {
+							min-height: 247px;
+							max-height: 247px;
+							max-width: 100%;
+						}
+
+						.bio {
+							min-height: 80px;
+							max-height: 80px;
+							max-width: 100%;
+							padding: 8px;
+							margin: -14px 0 0 -8px;
+							overflow: auto;
+						}
+					}
+				}
+				/* ContentWrapper */
+			}
+		}
+		/* Main */
+  }
+  
+  @media (min-width: 1260px) and (max-width: 1440px) {
+		/* Main */
+		.main {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+
+      /* SideMenu */
+      .DesktopMenu {
+        height: 100vh;
+        display: flex;
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        flex-direction: column;
+        min-width: 18vw;
+        flex-grow: 3;
+        height: 100vh;
+        width: 12%;
+
+				/* Logout */
+				.logout {
+					display: flex;
+					flex-direction: column;
+					width: auto;
+					height: 100%;
+					align-items: center;
+					justify-content: end;
+
+					.hover-button {
+						background-color: #2b3034; /* Initial background color */
+						color: #fff; /* Initial text color */
+						transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+	
+						&:hover {
+							background-color: #55595d; /* Change the background color on hover */
+							color: #fff; /* Change the text color on hover */
+						}				
+					}
+				}
+				/* Logout */
+
+        .profileContainer {
+					font-size: 18px;
+					display: flex;
+					flex-direction: column;
+					height: 25%;
+					padding: 10% 0 0 0;
+					gap: 5px;
+					margin-bottom: 6em;
+					text-align: center;
+
+					.ProfileImage {
+						margin: 0 auto 0 auto;
+
+						img {
+							width: 80px;
+							height: 80px;
+							border-radius: 100%;
+							object-fit: cover;
+							background-color: gray;
+							background-image: url("../../assets/default.png");
+						}
+					}
+
+					.smallText {
+						color: var(--tertiary-color);
+						font-size: 16px;
+					}
+        }
+        
+        nav {
+					ul {
+						list-style: none;
+						margin: 0;
+						padding: 0;
+						width: 100%;
+
+						li {
+							a {
+								gap: 6px;
+								padding: 6.5%;
+								text-decoration: none;
+								display: flex;
+								align-items: center;
+
+								background-color: #2b3034; /* Initial background color */
+								color: var(--secondary-color); /* Initial text color */
+								transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+		
+								&:hover {
+									background-color: #55595d; /* Change the background color on hover */
+									color: #000; /* Change the text color on hover */
+								}
+							}
+						}
+					}
+        }
+      }
+      /* SideMenu */
+
+			.ContentWrapper-Main {
+				flex-grow: 4;
+				height: 100vh;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				overflow-y: scroll;
+				width: 100%;
+
+				&::-webkit-scrollbar {
+					width: 0;
+					display: none;
+				}
+
+				/* ContentWrapper */
+				.ContentWrapper {
+					display: flex;
+					flex-direction: column;
+					margin-top: 30px;
+					min-height: 100vh;
+					max-width: 100%;
+					min-width: 50%;
+
+					ul {
+						display: flex;
+						flex-direction: column;
+						gap: 15px;
+
+						li {
+							list-style: none;
+						}
+					}
+
+					.company {
+						max-width: 100%;
+						margin: 0 auto;
+
+						.bannerDiv {
+							width: 100%;
+							margin: 0 auto;
+
+							.Banner {
+								object-fit: cover;
+								height: 271px;
+								width: 917;
+								border-radius: 10px 10px 0 0;
+							}
+						}
+
+						.CompanyBodyHead {
+							width: 917px;
+							margin: 0 auto;
+
+							.d-flex1 {
+								display: flex;
+							
+								.card1 {
+									min-width: 575px;
+									min-height: 183px;
+									max-height: 183px;
+								}
+
+								.bio-card {
+									margin: 0 0 0 35px;
+								}
+							}
+
+							.CompanyHeader {
+								background: #ffffff;
+								border-radius: 0 0 10px 10px;
+
+								.Companylogo {
+									height: 85px;
+									width: 85px;
+									object-fit: cover;
+									border-radius: 100%;
+								}
+							}
+						}
+					}
+
+					.company-lists {
+						width: 920px;
+						min-width: 600px;
+						max-width: 100%;
+
+						.search-label {
+							font-size: 20px;
+						}
+
+						.search-main {
+							box-shadow: 0px 4px 10px 0px #00000014;
+							width: 100%;
+							padding: 8px 15px 8px 15px;
+							border-radius: 2vh;
+						}
+
+						.company-main {
+							min-height: 283px;
+							max-width: 100%;
+						}
+
+						.company-card {
+							min-height: 283px;
+							max-height: 283px;
+							max-width: 100%;
+							box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.08);
+						}
+
+						.company-card-body {
+							min-height: 247px;
+							max-height: 247px;
+							max-width: 100%;
+						}
+
+						.bio {
+							min-height: 80px;
+							max-height: 80px;
+							max-width: 100%;
+							padding: 8px;
+							margin: 0 0 0 -8px;
+							overflow: auto;
+						}
+					}
+				}
+				/* ContentWrapper */
+			}
+		}
+		/* Main */
+  }
+
+  @media (min-width: 1441px) {
+    /* Main */
+    .main {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+
+      /* SideMenu */
+      .DesktopMenu {
+        height: 100vh;
+        display: flex;
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        flex-direction: column;
+        min-width: 18vw;
+        flex-grow: 3;
+        height: 100vh;
+        width: 12%;
+
+				/* Logout */
+				.logout {
+					display: flex;
+					flex-direction: column;
+					width: auto;
+					height: 100%;
+					align-items: center;
+					justify-content: end;
+
+					.hover-button {
+						background-color: #2b3034; /* Initial background color */
+						color: #fff; /* Initial text color */
+						transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+	
+						&:hover {
+							background-color: #55595d; /* Change the background color on hover */
+							color: #fff; /* Change the text color on hover */
+						}				
+					}
+				}
+				/* Logout */
+
+        .profileContainer {
+					font-size: 18px;
+					display: flex;
+					flex-direction: column;
+					height: 25%;
+					padding: 10% 0 0 10%;
+					gap: 5px;
+					margin-bottom: 6em;
+
+					.ProfileImage {
+						img {
+							width: 80px;
+							height: 80px;
+							border-radius: 100%;
+							object-fit: cover;
+							background-color: gray;
+							background-image: url("../../assets/default.png");
+						}
+					}
+
+					.smallText {
+						color: var(--tertiary-color);
+						font-size: 16px;
+					}
+        }
+        
+        nav {
+					ul {
+						list-style: none;
+						margin: 0;
+						padding: 0;
+						width: 100%;
+
+						li {
+							a {
+								gap: 6px;
+								padding: 6.5%;
+								text-decoration: none;
+								display: flex;
+								align-items: center;
+
+								background-color: #2b3034; /* Initial background color */
+								color: var(--secondary-color); /* Initial text color */
+								transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+		
+								&:hover {
+									background-color: #55595d; /* Change the background color on hover */
+									color: #000; /* Change the text color on hover */
+								}
+							}
+						}
+					}
+        }
+      }
+      /* SideMenu */
+
+      .ContentWrapper-Main {
+        flex-grow: 9;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: scroll;
+        width: 100%;
+
+        &::-webkit-scrollbar {
+            width: 0;
+            display: none;
+        }
+
+        /* ContentWrapper */
+        .ContentWrapper {
+					display: flex;
+					flex-direction: column;
+					margin: 30px auto 0 auto;
+					min-height: 100vh;
+					max-height: none;
+					max-width: 100%;
+					min-width: 50%;
+
+					ul {
+						display: flex;
+						flex-direction: column;
+						gap: 15px;
+
+						li {
+							list-style: none;
+						}
+					}
+
+					.company {
+						max-width: 100%;
+						margin: 0 auto;
+
+						.bannerDiv {
+							width: 100%;
+							margin: 0 auto;
+
+							.Banner {
+								object-fit: cover;
+								height: 271px;
+								width: 917;
+								border-radius: 10px 10px 0 0;
+							}
+						}
+
+						.CompanyBodyHead {
+							width: 917px;
+							margin: 0 auto;
+
+							.d-flex1 {
+								display: flex;
+							
+								.card1 {
+									min-width: 575px;
+									min-height: 183px;
+									max-height: 183px;
+								}
+								
+								.bio-card {
+									margin: 0 0 0 35px;
+								}
+							}
+
+							.CompanyHeader {
+								background: #ffffff;
+								border-radius: 0 0 10px 10px;
+
+								.Companylogo {
+									height: 85px;
+									width: 85px;
+									object-fit: cover;
+									border-radius: 100%;
+								}
+							}
+						}
+					}
+
+					.company-lists {
+						width: 920px;
+						min-width: 600px;
+						max-width: 100%;
+
+						.search-label {
+							font-size: 20px;
+						}
+
+						.search-main {
+							box-shadow: 0px 4px 10px 0px #00000014;
+							width: 100%;
+							padding: 8px 15px 8px 15px;
+							border-radius: 2vh;
+						}
+
+						.company-main {
+							min-height: 283px;
+							max-width: 100%;
+						}
+
+						.company-card {
+							min-height: 283px;
+							max-height: 283px;
+							min-width: 280px;
+							max-width: 100%;
+							box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.08);
+						}
+
+						.company-card-body {
+							min-height: 247px;
+							max-height: 247px;
+							max-width: 100%;
+						}
+
+						.bio {
+							min-height: 110px;
+							max-height: 110px;
+							max-width: 100%;
+							padding: 8px;
+							margin: -7px 0 0 -8px;
+							overflow: auto;
+						}
+					}
+        }
+        /* ContentWrapper */
+      }
+    }
+    /* Main */
+  }
+  

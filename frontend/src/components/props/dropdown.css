@@ -1,0 +1,64 @@
+/* Regular state for the button */
+.dropdown-button {
+  /* Your regular styles here */
+}
+
+/* Flipped state for the button */
+.dropdown-button.flipped {
+  transform: rotate(180deg); /* Rotate the button 180 degrees */
+}
+
+/* Regular state for the icon */
+.icon {
+  /* Your regular styles here */
+}
+
+/* Flipped state for the icon */
+.icon.flipped {
+  transform: rotate(180deg); /* Rotate the icon 180 degrees */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background: #fff;
+  color: #000;
+  border-color: #aeaeae;
+  border: none;
+  cursor: pointer;
+  padding: 2px 18px;
+  margin: 10px;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+.dropdown-menu li {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f2f2f2;
+}
+
+/* Show the dropdown menu when the dropdown is open */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}

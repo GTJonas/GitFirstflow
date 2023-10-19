@@ -1,0 +1,67 @@
+.user .profile img {
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+  outline-style: solid;
+  outline-color: #fff;
+  outline-width: 2px;
+}
+.user .profile {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  margin: 0 -5px;
+}
+
+.user {
+  width: 100px;
+}
+
+.class .classname {
+  font-size: 22px;
+  margin: 0 -8px;
+}
+
+.class .teacher {
+  font-size: 16px;
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+
+.create-class-main {
+  padding: 20px 20px;
+  margin: 0 -10px 15px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.08);
+}
+
+.class {
+  padding: 20px 20px;
+  margin: 5px -10px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.08);
+}
+
+.class .edit {
+  background: #0fa3f5;
+  padding: 10px;
+  border-radius: 100%;
+  border-width: 0;
+}
+
+.class .remove-bin {
+  background: #ec2146;
+  padding: 10px;
+  border-radius: 100%;
+  border-width: 0;
+}
+
+.internship {
+}
+
+.class .buttdiv {
+  margin: -10px 0;
+}
+
+.class .icon {
+}

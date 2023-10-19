@@ -1,0 +1,6 @@
+.Companylogo {
+  height: 85px;
+  width: 85px;
+  object-fit: cover;
+  border-radius: 100%;
+}

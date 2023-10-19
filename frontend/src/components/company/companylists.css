@@ -1,0 +1,20 @@
+.company-search-main {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.08);
+}
+
+input {
+  background: #f4f5f5;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Add a default border */
+}
+
+input[type="text"]:focus {
+  border: 1px solid #aaa; /* Add a default border */
+  outline: none; /* Remove the default focus outline */
+}

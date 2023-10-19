@@ -1,0 +1,80 @@
+.createpost-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.createpost-background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 100% 100vh 100% 100vh;
+  opacity: 70%;
+  background: #000;
+}
+
+.editclass-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.editclass-background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 100% 100vh 100% 100vh;
+  opacity: 70%;
+  background: #000;
+}
+
+.upload {
+  padding: 2px 0 10px 0;
+}
+
+.time {
+  display: flex;
+  padding: 0 0 10px 0;
+}
+
+.dropmenu {
+  height: 100px;
+  width: 100%;
+}
+
+#postTextarea {
+  resize: none;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  min-width: 35%;
+}
+
+.close-background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 100% 100vh 100% 100vh;
+  opacity: 70%;
+  background: #000;
+}

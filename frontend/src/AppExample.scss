@@ -1,0 +1,58 @@
+    /* Main */
+    .main {
+
+
+      /* SideMenu */
+      .DesktopMenu {
+
+
+        .profileContainer {
+
+
+					.ProfileImage {
+						img {
+
+						}
+					}
+
+					.smallText {
+
+					}
+        }
+        
+        nav {
+					ul {
+
+
+						li {
+							a {
+
+							}
+						}
+					}
+        }
+      }
+      /* SideMenu */
+
+      .ContentWrapper-Main {
+
+        &::-webkit-scrollbar {
+
+        }
+
+        /* ContentWrapper */
+        .ContentWrapper {
+
+
+					ul {
+
+
+						li {
+
+						}
+					}
+        }
+        /* ContentWrapper */
+      }
+    }
+    /* Main */

@@ -1,0 +1,19 @@
+/* Regular state for the button */
+.dropdown-button {
+  /* Your regular styles here */
+}
+
+/* Flipped state for the button */
+.dropdown-button.flipped {
+  transform: rotate(180deg); /* Rotate the button 180 degrees */
+}
+
+/* Regular state for the icon */
+.icon {
+  /* Your regular styles here */
+}
+
+/* Flipped state for the icon */
+.icon.flipped {
+  transform: rotate(180deg); /* Rotate the icon 180 degrees */
+}

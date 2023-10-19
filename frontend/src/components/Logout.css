@@ -1,0 +1,10 @@
+.hover-button {
+  background-color: #2b3034; /* Initial background color */
+  color: #fff; /* Initial text color */
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+}
+
+.hover-button:hover {
+  background-color: #55595d; /* Change the background color on hover */
+  color: #fff; /* Change the text color on hover */
+}

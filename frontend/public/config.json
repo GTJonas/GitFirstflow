@@ -1,0 +1,76 @@
+{
+  "apiBaseUrl": "http://194.71.0.30:8000",
+  "apis": [
+    {
+      "path": "/api/protected",
+      "description": "Allows Access to protected resources.",
+      "index": "0"
+    },
+    {
+      "path": "/api/login",
+      "description": "User login endpoint.",
+      "index": "1"
+    },
+    {
+      "path": "/api/get-user-by-uuid",
+      "description": "",
+      "index": "2"
+    },
+    {
+      "path": "/api/update-user-profile",
+      "description": "Placeholder API.",
+      "index": "3"
+    },
+    {
+      "path": "/api/user-by-roles",
+      "description": "Placeholder API.",
+      "index": "4"
+    },
+    {
+      "path": "/api/store-post",
+      "description": "Placeholder API.",
+      "index": "5"
+    },
+    {
+      "path": "/api/class-rule",
+      "description": "Placeholder API.",
+      "index": "6"
+    },
+    {
+    "path": "/api/create-class",
+    "description": "Placeholder API.",
+    "index": "7"
+    },
+    {
+    "path": "/api/filtered-posts",
+    "description": "Placeholder API.",
+    "index": "8"
+    },
+    {
+    "path": "/api/posts",
+    "description": "Placeholder API.",
+    "index": "9"
+    },
+    {
+    "path": "/api/show-own-class",
+    "description": "Placeholder API.",
+    "index": "10"
+    },
+    {
+    "path": "/api/class-rules",
+    "description": "Placeholder API.",
+    "index": "11"
+    },
+    {
+    "path": "/api/get-all-students-from-school",
+    "description": "Placeholder API.",
+    "index": "12"
+    }
+  ],
+  "storage": [
+    {
+      "path": "/storage/user-profiles/",
+      "description": "Profile Picture link"
+    }
+  ]
+}

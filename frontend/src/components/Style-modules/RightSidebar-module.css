@@ -1,0 +1,128 @@
+/* Right sidebar */
+::-webkit-scrollbar {
+  width: 0;
+}
+
+@media (min-width: 1025px) and (max-width: 1324px) {
+  .Sidebar h2 {
+    font-weight: 500;
+  }
+  .Sidebar {
+    background-color: #ffffff;
+    color: #2b3034;
+    width: 38.9%;
+  }
+  .Sidebar li {
+    list-style: none;
+  }
+  .Sidebar .profile img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .Sidebar .profile {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .Sidebar .overflow0 {
+    height: 94.2vh;
+    overflow-y: scroll;
+  }
+}
+
+@media (min-width: 1325px) and (max-width: 1399px) {
+  .Sidebar h2 {
+    font-weight: 500;
+  }
+  .Sidebar {
+    background-color: #ffffff;
+    color: #2b3034;
+    width: 31.6%;
+  }
+  .Sidebar li {
+    list-style: none;
+  }
+  .Sidebar .profile img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .Sidebar .profile {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .Sidebar .overflow0 {
+    height: 94vh;
+    overflow-y: scroll;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1440px) {
+  .Sidebar h2 {
+    font-weight: 500;
+  }
+  .Sidebar {
+    background-color: #ffffff;
+    color: #2b3034;
+  }
+  .Sidebar li {
+    list-style: none;
+  }
+  .Sidebar .profile img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .Sidebar .profile {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .Sidebar .overflow {
+    height: 100%;
+    overflow-y: scroll;
+  }
+}
+
+@media (min-width: 1441px) {
+  .Sidebar h2 {
+    font-weight: 500;
+  }
+
+  .Sidebar {
+    background-color: #ffffff;
+    color: #2b3034;
+    width: 0;
+  }
+  .Sidebar li {
+    list-style: none;
+  }
+  .Sidebar .profile img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .Sidebar .profile {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .Sidebar .overflow {
+    height: 50vh;
+    overflow-y: scroll;
+  }
+}
